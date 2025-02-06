@@ -11,7 +11,7 @@ console.log("hello");
 
 
 check.addEventListener("click",function ()  {
-    console.log("whore hain bachchan ji"); 
+     
     round.style.backgroundColor = "red";
     round.style.display = "none";
 
