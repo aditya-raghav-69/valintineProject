@@ -1,0 +1,70 @@
+body{
+    background-color: pink;
+    display: flex;
+    width: 100wh;
+
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.round{
+    
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    background-color: rgba(212, 222, 21, 0.747);
+}
+
+.twoeyes{
+    position: relative;
+    top: 2rem;
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+    height: 2rem;
+    width: 100%
+    /* background-color: white; */
+
+    
+}
+.eye{       
+    width: 2rem;
+    height: 2rem;       
+    background-color: white;
+    border-radius: 50%;
+}
+.pupils{       
+    position: relative;
+    top: 0.6rem; 
+    left: 0.6rem;
+    height: 1rem;
+    width: 1rem;
+    background-color: black;
+    border-radius: 50%;
+}
+.teeth{
+    height: 2rem;
+    width: 4rem;
+
+    background-color: white;
+    position: relative;
+    top: 4rem;
+    left: 2.8rem;
+    border-radius: 0 0 150px 150px;
+}
+
+#check{
+    
+    height: 3rem;
+    width: 3rem;
+    /* border: 3px solid red; */
+
+    margin: 16rem;
+
+    
+
+}
