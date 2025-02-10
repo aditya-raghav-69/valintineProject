@@ -1,15 +1,25 @@
-body{
+html,body{
     background-color: pink;
     display: flex;
-    width: 100wh;
+    width: 100%;
 
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    padding-bottom: 5rem;
     
 }
+/* .header{
+    position: relative;
+    top: 0;
+    font-family: sans-serif;
+    height: 5rem;
+    width: 100vw;
+    text-align: center;
+    background-color: rgb(133, 77, 77);
 
+} */
 .round{
     
     border-radius: 50%;
@@ -92,4 +102,25 @@ body{
     font-weight: 800;
     color: red;
     display:none; ;
+}
+
+.footer {
+    position:fixed ;
+    bottom: 0;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    
+    margin:0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 100vw; /* Set width to 100% of the viewport width */
+    background-color: rgb(133, 77, 77);
+}
+.footerlinks{
+    
+    text-decoration: none;
+    color: black;
 }
