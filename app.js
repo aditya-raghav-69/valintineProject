@@ -9,6 +9,7 @@ let replyyes = document.querySelector(".replyyes");
 let replyno = document.querySelector(".replyno");
 let yes = document.querySelector("#yes");
 let no = document.querySelector("#no");
+// let header = document.querySelector(".header");
 
 console.log("hello");
 let a, b;
@@ -20,12 +21,13 @@ check.addEventListener("click",function ()  {
     round.style.backgroundColor = "pink"; // Changed to pink
     round.style.display = "none";
 
-    body.prepend(img);
     img.src = "assets/image copy.png";
     img.style.width = "20rem";
     img.style.height = "15rem";
     img.style.background = "none";
-    body.prepend(h1);
+    body.append(h1);
+    body.append(img);
+
     h1.textContent = "hey , I like  you. will you be my valintine?";
     h1.style.fontFamily="papyrus";
     h1.style.color = "rgb(255, 105, 180)"; // Changed to hot pink
@@ -53,6 +55,7 @@ function rejection1() {
         pushpa.style .height = "15rem";
         body.append(pushpa);
         body.append(h2);
+        body.removeChild(img);
     } else {
         if (count ==6) {
             console.log("inside the rejection 2");
