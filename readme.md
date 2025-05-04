@@ -33,7 +33,7 @@ Here's how you can get this project up and running:
 
 ## How to Use 🤔
 
-[** instructions on how to use the project** - e.g., "Simply open the `index.html` file", "Run the script and follow the prompts", etc.]
+ Simply open the `index.html` file", "Run the script 
 
 ## Contributing 👋
 
