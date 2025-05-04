@@ -6,9 +6,9 @@ A sweet little project dedicated to spreading some love! This repository contain
 
 ## 🌟 Features 🌟
 
-* 💌  Displays a personalized Valentine's message]
-* 💖  Includes cute animations/CSS]
-* 🎁 Simple and easy to use]
+* 💌  Displays a personalized Valentine's message
+* 💖  Includes cute animations/CSS
+* 🎁 Simple and easy to use
 * 🔧 The project contains two options one for true and one for false by radio buttons.
 
 ## 🚀 Getting Started 🚀
